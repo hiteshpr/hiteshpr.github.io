@@ -75,19 +75,16 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutme" >About Me</a>
+              <a class="nav-link" href="#aboutme">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Work Experience</a>
+              <a class="nav-link" href="#workexperience">Work Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
 
@@ -262,7 +259,7 @@
           <!--Grid column-->
           <div class="col-md-6 mb-4">
 
-          <!--  <img src="/img/profpicnew.jpg" class="img-fluid z-depth-1-half responsive" alt="profile picture"> -->
+          <img src="./img/profpicnew.jpg" style="max-width: 90%;" class="img-fluid z-depth-1-half responsive" alt="profile picture">
 
           </div>
           <!--Grid column-->
@@ -292,7 +289,7 @@
       <hr class="my-5">
 
       <!--Section: Main features & Quick Start-->
-      <section>
+      <section id="workexperience">
 
         <h3 class="h3 text-center mb-5">Work Experiences</h3>
 
@@ -305,12 +302,13 @@
             <!--First row-->
             <div class="row">
               <div class="col-1 mr-3">
-                <i> <img src = "" ></i>
+                  <i class="fas fa-industry fa-2x blue-text"></i>
               </div>
               <div class="col-10">
                 <h5 class="feature-title">FlytBase, Pune</h5>
+                <h6>May 2018 - December 2018</h6>
                 <p class="grey-text"> Worked with the team on development of products like FlytSecurity, FlytLive and FlytCloud simulator. 
-                    Worked with Angular 6, Google Maps, Airmap, Stripe payement gateway. Also worked with ExpressJS, MongoDB, MySQL and ROSLib websocket for creating REST APIs</p>
+                    Worked with Angular 6, Google Maps, Airmap, Stripe payement gateway. Also worked with ExpressJS, MongoDB, MySQL and ROSLib websocket for creating REST APIs. Wrote Unit test cases in Jasmine.</p>
               </div>
             </div>
             <!--/First row-->
@@ -320,12 +318,13 @@
             <!--Second row-->
             <div class="row">
               <div class="col-1 mr-3">
-                <i class="fas fa-book fa-2x blue-text"></i>
+                  <i class="fas fa-industry fa-2x blue-text"></i>
               </div>
               <div class="col-10">
                 <h5 class="feature-title">Healthcoco, Nagpur</h5>
+                <h6>November 2017 - December 2017</h6>
                 <p class="grey-text">Worked on Admin and Consumer Web App for managing admins, doctors and clinics. Worked on migration of the web App from Angular 1.5 to Angular 4. 
-                    Build and integrated many modules in the Web App using material design. Worked on Angular Universal for server side rendering of the App.   
+                    Build and styled many modules in the Web App using material design. Worked on Angular Universal for server side rendering of the App.   
                 </p>
               </div>
             </div>
@@ -333,28 +332,41 @@
 
             <div style="height:30px"></div>
 
-            <!--Third row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Syslogyx Technologies, Nagpur</h5>
-                <p class="grey-text">Worked on human resource management project build on PHP frameworks - CakePHP and Laravel. Learnt and implemented MVC design into projects. Worked on HTML 5, CSS 3, Bootstrap 3, JQuery and MySQL.</p>
-              </div>
-            </div>
-            <!--/Third row-->
-
           </div>
           <!--/Grid column-->
 
           <!--Grid column-->
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-6 col-md-12 px-4">
 
-            <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                  <i class="fas fa-industry fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Syslogyx Technologies, Nagpur</h5>
+                <h6>Jan 2017 - June 2017</h6>
+                <p class="grey-text">Worked on human resource management project build on PHP frameworks - CakePHP and Laravel. Learnt and implemented MVC design into projects. Worked on HTML 5, CSS 3, Bootstrap 3, JQuery and MySQL.</p>
+              </div>
             </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-industry fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Kharagpur Winter of Code, IIT Kharagpur</h5>
+                <h6>December 2017 and December 2018</h6>
+                <p class="grey-text"> Amongst the top contributors in the open source competition organised by IIT Kharagpur. Contributed to a PHP project on session management and JavaScript project on online radio.
+                    Mentored in the 2018 edition of the event.
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
           </div>
           <!--/Grid column-->
 
@@ -367,23 +379,23 @@
       <hr class="my-5">
 
       <!--Section: Not enough-->
-      <section>
+      <section id="skills">
 
-        <h2 class="my-5 h3 text-center">Not enough?</h2>
+        <h2 class="my-5 h3 text-center">Skills</h2>
 
         <!--First row-->
         <div class="row features-small mb-5 mt-3 wow fadeIn">
 
           <!--First column-->
-          <div class="col-md-4">
+          <div class="col-md-6">
             <!--First row-->
             <div class="row">
               <div class="col-2">
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Free for personal and commercial use</h6>
-                <p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects.
+                <h6 class="feature-title">JavaScript</h6>
+                <p class="grey-text">Frameworks - Angular 4, Angular 6, JQuery, ExpressJS, Jasmine
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -396,8 +408,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">400+ UI elements</h6>
-                <p class="grey-text">An impressive collection of flexible components allows you to develop any project.
+                <h6 class="feature-title">Python</h6>
+                <p class="grey-text">Frameworks - Flask, Django
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -410,45 +422,57 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">600+ icons</h6>
-                <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
+                <h6 class="feature-title">UI Designing</h6>
+                <p class="grey-text">HTML 5, CSS 3, Bootstrap, Material Design</p>
                 <div style="height:15px"></div>
               </div>
             </div>
             <!--/Third row-->
 
             <!--Fourth row-->
-            <div class="row">
+           <!-- <div class="row">
               <div class="col-2">
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Fully responsive</h6>
-                <p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop, tablet or mobile phone. MDB
-                  looks great on each screen.</p>
+                <h6 class="feature-title">Databases</h6>
+                <p class="grey-text">MySQL, MongoDB, Redis, Elastic</p>
                 <div style="height:15px"></div>
               </div>
-            </div>
+            </div> -->
             <!--/Fourth row-->
           </div>
           <!--/First column-->
 
           <!--Second column-->
-          <div class="col-md-4 flex-center">
+         <!-- <div class="col-md-4 flex-center">
             <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
-          </div>
+          </div> -->
           <!--/Second column-->
 
           <!--Third column-->
-          <div class="col-md-4 mt-2">
+          <div class="col-md-6 mt-2">
+
+              <div class="row">
+                  <div class="col-2">
+                    <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                  </div>
+                  <div class="col-10">
+                    <h6 class="feature-title">Databases</h6>
+                    <p class="grey-text">MySQL, MongoDB, Redis, Elastic</p>
+                    <div style="height:15px"></div>
+                  </div>
+                </div>
+
+                
             <!--First row-->
             <div class="row">
               <div class="col-2">
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">70+ CSS animations</h6>
-                <p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your project and delight your visitors.
+                <h6 class="feature-title">Other Languages</h6>
+                <p class="grey-text">C, C++
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -461,15 +485,15 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Plenty of useful templates</h6>
-                <p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
+                <h6 class="feature-title">Tools</h6>
+                <p class="grey-text">Git, Jira, Bugzilla, Slack, Postman, Chrome Dev Tools</p>
                 <div style="height:15px"></div>
               </div>
             </div>
             <!--/Second row-->
 
             <!--Third row-->
-            <div class="row">
+           <!-- <div class="row">
               <div class="col-2">
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
@@ -479,11 +503,11 @@
                 </p>
                 <div style="height:15px"></div>
               </div>
-            </div>
+            </div> -->
             <!--/Third row-->
 
             <!--Fourth row-->
-            <div class="row">
+           <!-- <div class="row">
               <div class="col-2">
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
@@ -493,7 +517,7 @@
                   easily adjust each component to suit your needs.</p>
                 <div style="height:15px"></div>
               </div>
-            </div>
+            </div> -->
             <!--/Fourth row-->
           </div>
           <!--/Third column-->
@@ -507,23 +531,23 @@
       <hr class="mb-5">
 
       <!--Section: More-->
-      <section>
+      <section id="contact">
 
-        <h2 class="my-5 h3 text-center">...and even more</h2>
+        <h2 class="my-5 h3 text-center">Contact Me</h2>
 
         <!--First row-->
         <div class="row features-small mt-5 wow fadeIn">
 
           <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
+          <div class="col-xl-6 col-lg-6">
             <!--Grid row-->
             <div class="row">
               <div class="col-2">
-                <i class="fab fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+                  <i class="fa fa-envelope mb-1 fa-2x indigo-text" aria-hidden="true"></i>
               </div>
               <div class="col-10 mb-2 pl-3">
-                <h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
-                <p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers; all browsers love MDB.
+                <h5 class="feature-title font-bold mb-1">E-Mail me at</h5>
+                <p class="grey-text mt-2"> <a href="mailto:hiteshproy@gmail.com">hiteshproy@gmail.com <br> <a href="mailto:hiteshpravin.roy@cognizant.com"> hiteshpravin.roy@cognizant.com</a>
                 </p>
               </div>
             </div>
@@ -532,15 +556,15 @@
           <!--/Grid column-->
 
           <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
+          <div class="col-xl-6 col-lg-6">
             <!--Grid row-->
             <div class="row">
               <div class="col-2">
-                <i class="fas fa-level-up-alt fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+                  <i class="fa fa-phone mb-1 fa-2x indigo-text" aria-hidden="true"></i>
               </div>
               <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Frequent updates</h5>
-                <p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as possible.
+                <h5 class="feature-title font-bold mb-1">Call me on</h5>
+                <p class="grey-text mt-2">+91 9890272898
                 </p>
               </div>
             </div>
@@ -549,9 +573,9 @@
           <!--/Grid column-->
 
           <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
+         <!-- <div class="col-xl-3 col-lg-6"> -->
             <!--Grid row-->
-            <div class="row">
+          <!--  <div class="row">
               <div class="col-2">
                 <i class="fas fa-comments fa-2x mb-1 indigo-text" aria-hidden="true"></i>
               </div>
@@ -560,15 +584,15 @@
                 <p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a part of our family.
                 </p>
               </div>
-            </div>
+            </div> -->
             <!--/Grid row-->
-          </div>
+        <!--  </div> -->
           <!--/Grid column-->
 
           <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
+          <!-- <div class="col-xl-3 col-lg-6"> -->
             <!--Grid row-->
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-2">
                 <i class="fas fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
               </div>
@@ -578,21 +602,21 @@
                   it.
                 </p>
               </div>
-            </div>
+            </div> -->
             <!--/Grid row-->
-          </div>
+          <!--</div> -->
           <!--/Grid column-->
 
-        </div>
+        <!--</div> -->
         <!--/First row-->
 
         <!--Second row-->
-        <div class="row features-small mt-4 wow fadeIn">
+        <!-- <div class="row features-small mt-4 wow fadeIn"> -->
 
           <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
+          <!--<div class="col-xl-3 col-lg-6"> -->
             <!--Grid row-->
-            <div class="row">
+            <!--<div class="row">
               <div class="col-2">
                 <i class="fas fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
               </div>
@@ -601,59 +625,13 @@
                 <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use libraries including all features as
                   well as modules for CSS (SASS files) and JS.</p>
               </div>
-            </div>
+            </div> -->
             <!--/Grid row-->
-          </div>
+          <!-- </div> -->
           <!--/Grid column-->
 
           <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Technical support</h5>
-                <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to contact us.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Flexbox</h5>
-                <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="far fa-file-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">SASS files</h5>
-                <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
+          
 
         </div>
         <!--/Second row-->
@@ -670,11 +648,8 @@
 
     <!--Call to action-->
     <div class="pt-4">
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download MDB
+      <a class="btn btn-outline-white" href="./CV/HiteshRoyCV.pdf" target="_blank" role="button">Download Resume
         <i class="fas fa-download ml-2"></i>
-      </a>
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start free tutorial
-        <i class="fas fa-graduation-cap ml-2"></i>
       </a>
     </div>
     <!--/.Call to action-->
@@ -682,7 +657,7 @@
     <hr class="my-4">
 
     <!-- Social icons -->
-    <div class="pb-4">
+    <!--<div class="pb-4">
       <a href="https://www.facebook.com/mdbootstrap" target="_blank">
         <i class="fab fa-facebook-f mr-3"></i>
       </a>
@@ -714,13 +689,14 @@
       <a href="http://codepen.io/mdbootstrap/" target="_blank">
         <i class="fab fa-codepen mr-3"></i>
       </a>
-    </div>
+    </div> -->
     <!-- Social icons -->
 
     <!--Copyright-->
     <div class="footer-copyright py-3">
-      © 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+       
+      <i class="fa fa-copyright ml-2"></i> 2019
+     Hitesh Roy
     </div>
     <!--/.Copyright-->
 
