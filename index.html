@@ -69,9 +69,8 @@
 
           <!-- Left -->
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home
               </a>
             </li>
             <li class="nav-item">
@@ -123,15 +122,15 @@
 
       <!--Indicators-->
       <ol class="carousel-indicators">
-        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="0"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1" class="active"></li>
         <li data-target="#carousel-example-1z" data-slide-to="2"></li>
       </ol>
       <!--/.Indicators-->
 
       
     <!--Slides-->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" id="home">
 
       <!--First slide-->
       <div class="carousel-item">
@@ -250,17 +249,18 @@
   <main>
     <div class="container">
 
+      <div id="aboutme">
       <!--Section: Main info-->
-      <section class="mt-5 wow fadeIn" id="aboutme">
+      <section class="mt-5 wow fadeIn">
 
         <!--Grid row-->
-          <h3 class="h3 mb-3" style="text-align: center;">About Me</h3>
+          <h3 class="h3 mb-3 my-5" style="text-align: center;">About Me</h3>
         <div class="row">
             
           <!--Grid column-->
           <div class="col-md-6 mb-4">
 
-          <img src="./img/profpicnew.jpg" style="max-width: 80%;" class="img-fluid z-depth-1-half responsive" alt="profile picture">
+          <img src="./img/profpicnew.jpg" style="max-width: 45vh;" class="img-fluid z-depth-1-half responsive" alt="profile picture">
 
           </div>
           <!--Grid column-->
@@ -276,7 +276,7 @@
             <p> In my free time, I like to participate, voluteer and speak at various technical events and hacakthons. Also, I have recently started writing on Medium and Quora. Do check out!</p>
             <!-- Main heading -->
 
-            <hr>
+            
 
           </div>
           <!--Grid column-->
@@ -285,14 +285,67 @@
         <!--Grid row-->
 
       </section>
+    </div>
       <!--Section: Main info-->
 
       <hr class="my-5">
 
       <!--Section: Main features & Quick Start-->
+      <section id="education">
+
+          <h3 class="h3 text-center mb-5 my-5">Education</h3>
+  
+          <!--Grid row-->
+          <div class="row wow fadeIn">
+            <div class="col-lg-12 col-md-12 px-4">
+              <div class="row">
+
+                <div class="col-lg-6 col-md-12 px-4">
+                  <div class="row">
+                    <div class="col-1 mr-3">
+                        <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h4 class="feature-title"><b>Government College of Engineering Amravati</b></h4>
+                      <h6 class="grey-text">Electronics and Telecommunication Engineering</h6>
+                      <h6 class="grey-text">Expected May 2019</h6>
+                      <p> CGPA - 7.22/10 </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 px-4">
+                  
+                    <div class="row">
+                        <div class="col-1 mr-3">
+                            <i class="fas fa-book fa-2x blue-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="feature-title"><b>Hislop College, Nagpur</b></h4>
+                            <h6 class="grey-text">HSC (12th)</h6>
+                            <h6 class="grey-text">June 2014</h6>
+                            <p> Scored 83%</p>
+                        </div>
+                      </div>
+
+                </div>
+  
+
+              </div>
+            </div>
+  
+          <!--/Grid row-->
+  
+        </section>
+        <!--Section: Main features & Quick Start-->
+        
+        <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
       <section id="workexperience">
 
-        <h3 class="h3 text-center mb-5">Work Experiences</h3>
+        <h3 class="h3 text-center mb-5 my-5">Work Experiences</h3>
 
         <!--Grid row-->
         <div class="row wow fadeIn">
@@ -306,9 +359,10 @@
                   <i class="fas fa-industry fa-2x blue-text"></i>
               </div>
               <div class="col-10">
-                <h5 class="feature-title">FlytBase, Pune</h5>
-                <h6>May 2018 - December 2018</h6>
-                <p class="grey-text"> Worked with the team on development of products like FlytSecurity, FlytLive and FlytCloud simulator. 
+                <h4 class="feature-title"><b>FlytBase, Pune</b></h4>
+                <h6 class="grey-text">Full Stack Developer Intern</h6>
+                <h6 class="grey-text">May 2018 - December 2018</h6>
+                <p> Worked with the team on development of products like FlytSecurity, FlytLive and FlytCloud simulator. 
                     Worked with Angular 6, Google Maps, Airmap, Stripe payement gateway. Also worked with ExpressJS, MongoDB, MySQL and ROSLib websocket for creating REST APIs. Wrote Unit test cases in Jasmine.</p>
               </div>
             </div>
@@ -318,17 +372,18 @@
 
             <!--Second row-->
             <div class="row">
-              <div class="col-1 mr-3">
-                  <i class="fas fa-industry fa-2x blue-text"></i>
+                <div class="col-1 mr-3">
+                    <i class="fas fa-industry fa-2x blue-text"></i>
+                </div>
+                <div class="col-10">
+                  <h4 class="feature-title"><b>Syslogyx Technologies, Nagpur</b></h4>
+                  <h6 class="grey-text">Summer Intern</h6>
+                  <h6 class="grey-text">Jan 2017 - June 2017</h6>
+                  <p>Worked on human resource management project build on PHP frameworks - CakePHP and Laravel. Learnt and implemented MVC design into projects. Worked on HTML 5, CSS 3, Bootstrap 3, JQuery and MySQL.
+                    Worked with tools like Bugzilla and Git.
+                  </p>
+                </div>
               </div>
-              <div class="col-10">
-                <h5 class="feature-title">Healthcoco, Nagpur</h5>
-                <h6>November 2017 - December 2017</h6>
-                <p class="grey-text">Worked on Admin and Consumer Web App for managing admins, doctors and clinics. Worked on migration of the web App from Angular 1.5 to Angular 4. 
-                    Build and styled many modules in the Web App using material design. Worked on Angular Universal for server side rendering of the App.   
-                </p>
-              </div>
-            </div>
             <!--/Second row-->
 
             <div style="height:30px"></div>
@@ -341,15 +396,20 @@
 
             <!--First row-->
             <div class="row">
-              <div class="col-1 mr-3">
-                  <i class="fas fa-industry fa-2x blue-text"></i>
+                <div class="col-1 mr-3">
+                    <i class="fas fa-industry fa-2x blue-text"></i>
+                </div>
+                <div class="col-10">
+                  <h4 class="feature-title"><b>Healthcoco, Nagpur</b></h4>
+                  <h6 class="grey-text">Frontend Developer Intern</h6>
+                  <h6 class="grey-text">November 2017 - December 2017</h6>
+                  <p>Worked on Admin and Consumer Web App for managing admins, doctors and clinics. Worked on the migration of the web App from Angular 1.5 to Angular 4. 
+                      Build and styled many modules in the Web App using material design. Worked on Angular Universal for server side rendering of the App.   
+                  </p>
+                </div>
               </div>
-              <div class="col-10">
-                <h5 class="feature-title">Syslogyx Technologies, Nagpur</h5>
-                <h6>Jan 2017 - June 2017</h6>
-                <p class="grey-text">Worked on human resource management project build on PHP frameworks - CakePHP and Laravel. Learnt and implemented MVC design into projects. Worked on HTML 5, CSS 3, Bootstrap 3, JQuery and MySQL.</p>
-              </div>
-            </div>
+
+           
             <!--/First row-->
 
             <div style="height:30px"></div>
@@ -360,9 +420,9 @@
                 <i class="fas fa-industry fa-2x blue-text"></i>
               </div>
               <div class="col-10">
-                <h5 class="feature-title">Kharagpur Winter of Code, IIT Kharagpur</h5>
-                <h6>December 2017 and December 2018</h6>
-                <p class="grey-text"> Amongst the top contributors in the open source competition organised by IIT Kharagpur. Contributed to a PHP project on session management and JavaScript project on online radio.
+                <h4 class="feature-title"><b>Kharagpur Winter of Code, IIT Kharagpur</b></h4>
+                <h6 class="grey-text">December 2017 and December 2018</h6>
+                <p> Amongst the top contributors in the open source competition organised by IIT Kharagpur. Contributed to a PHP project on session management and JavaScript project on online radio.
                     Mentored in the 2018 edition of the event.
                 </p>
               </div>
@@ -395,7 +455,7 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">JavaScript</h6>
+                <h5 class="feature-title"><b>JavaScript</b></h5>
                 <p class="grey-text">Frameworks - Angular 4, Angular 6, JQuery, ExpressJS, Jasmine
                 </p>
                 <div style="height:15px"></div>
@@ -409,7 +469,7 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Python</h6>
+                <h5 class="feature-title"><b>Python</b></h5>
                 <p class="grey-text">Frameworks - Flask, Django
                 </p>
                 <div style="height:15px"></div>
@@ -423,7 +483,7 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">UI Designing</h6>
+                <h5 class="feature-title"><b>UI Designing</b></h5>
                 <p class="grey-text">HTML 5, CSS 3, Bootstrap, Material Design</p>
                 <div style="height:15px"></div>
               </div>
@@ -459,7 +519,7 @@
                     <i class="fas fa-check-circle fa-2x indigo-text"></i>
                   </div>
                   <div class="col-10">
-                    <h6 class="feature-title">Databases</h6>
+                    <h5 class="feature-title"><b>Databases</b></h5>
                     <p class="grey-text">MySQL, MongoDB, Redis, Elastic</p>
                     <div style="height:15px"></div>
                   </div>
@@ -472,8 +532,8 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Other Languages</h6>
-                <p class="grey-text">C, C++
+                <h5 class="feature-title"><b>Other Languages</b></h5>
+                <p class="grey-text">C, C++, PHP
                 </p>
                 <div style="height:15px"></div>
               </div>
@@ -486,40 +546,12 @@
                 <i class="fas fa-check-circle fa-2x indigo-text"></i>
               </div>
               <div class="col-10">
-                <h6 class="feature-title">Tools</h6>
+                <h5 class="feature-title"><b>Tools</b></h5>
                 <p class="grey-text">Git, Jira, Bugzilla, Slack, Postman, Chrome Dev Tools</p>
                 <div style="height:15px"></div>
               </div>
             </div>
             <!--/Second row-->
-
-            <!--Third row-->
-           <!-- <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Easy installation</h6>
-                <p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div> -->
-            <!--/Third row-->
-
-            <!--Fourth row-->
-           <!-- <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Easy to use and customize</h6>
-                <p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep customization. You will
-                  easily adjust each component to suit your needs.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div> -->
-            <!--/Fourth row-->
           </div>
           <!--/Third column-->
 
@@ -534,7 +566,7 @@
       <!--Section: More-->
       <section id="contact">
 
-        <h2 class="my-5 h3 text-center">Contact Me</h2>
+        <h2 class="my-5 h3 text-center">Contact</h2>
 
         <!--First row-->
         <div class="row features-small mt-5 wow fadeIn">
@@ -548,11 +580,11 @@
               </div>
               <div class="col-10 mb-2 pl-3">
                 <h5 class="feature-title font-bold mb-1">E-Mail me at</h5>
-                <p class="grey-text mt-2"> <a href="mailto:hiteshproy@gmail.com">hiteshproy@gmail.com <br> <a href="mailto:hiteshpravin.roy@cognizant.com"> hiteshpravin.roy@cognizant.com</a>
+                <p class="grey-text mt-2"> <a href="mailto:hiteshproy@gmail.com">hiteshproy@gmail.com </a> OR <br> <a href="mailto:hiteshpravin.roy@cognizant.com"> hiteshpravin.roy@cognizant.com</a>
                 </p>
               </div>
             </div>
-            <!--/Grid row-->
+            <!--/Grid row-->  
           </div>
           <!--/Grid column-->
 
@@ -561,7 +593,7 @@
             <!--Grid row-->
             <div class="row">
               <div class="col-2">
-                  <i class="fa fa-phone mb-1 fa-2x indigo-text" aria-hidden="true"></i>
+                  <i class="fa fa-mobile mb-1 fa-2x indigo-text" aria-hidden="true"></i>
               </div>
               <div class="col-10 mb-2">
                 <h5 class="feature-title font-bold mb-1">Call me on</h5>
@@ -657,42 +689,6 @@
 
     <hr class="my-4">
 
-    <!-- Social icons -->
-    <!--<div class="pb-4">
-      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
-        <i class="fab fa-facebook-f mr-3"></i>
-      </a>
-
-      <a href="https://twitter.com/MDBootstrap" target="_blank">
-        <i class="fab fa-twitter mr-3"></i>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-        <i class="fab fa-youtube mr-3"></i>
-      </a>
-
-      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-        <i class="fab fa-google-plus-g mr-3"></i>
-      </a>
-
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
-        <i class="fab fa-dribbble mr-3"></i>
-      </a>
-
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
-        <i class="fab fa-pinterest mr-3"></i>
-      </a>
-
-      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
-
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
-        <i class="fab fa-codepen mr-3"></i>
-      </a>
-    </div> -->
-    <!-- Social icons -->
-
     <!--Copyright-->
     <div class="footer-copyright py-3">
        
@@ -718,6 +714,41 @@
     // Animations initialization
     new WOW().init();
   </script>
+  <script>
+     $(function(){ 
+     var navMain = $("#navbarSupportedContent");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+  });
+  </script>
+  <script>
+$(document).on('click', 'a[href^="#"]', function (e) {
+    e.preventDefault();
+    var el = $( e.target.getAttribute('href') );
+    var elOffset = el.offset().top;
+    var elHeight = el.height();
+    var windowHeight = $(window).height();
+    var offset;
+
+    if (elHeight < windowHeight) {
+      offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+    }
+      else {
+        offset = elOffset;
+      }
+    var speed = 700;
+      $('html, body').animate({scrollTop:offset}, speed);
+  });
+  </script>
+  <style>
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  
+  </style>
 </body>
 
 </html>
